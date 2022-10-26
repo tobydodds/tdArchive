@@ -22,6 +22,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\Modules\TDArchive.Module\TDArchive.Module.csproj" />
+	  <ProjectReference Include="..\Themes\TDArchive.Theme\TDArchive.Theme.csproj" />
 	</ItemGroup>
 
 </Project>

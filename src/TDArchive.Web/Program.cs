@@ -9,6 +9,7 @@ builder.Host.UseNLogHost();
 
 builder.Services
     .AddOrchardCms()
+    .AddGlobalFeatures("TDArchive.Module")
     .AddSetupFeatures("OrchardCore.AutoSetup");
 
 var app = builder.Build();
